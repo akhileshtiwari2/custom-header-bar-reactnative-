@@ -25,7 +25,7 @@ const App = () => {
           <ScrollView showsVerticalScrollIndicator={false}>
             <View style={styles.discoverWrapper}>
               <View>
-                 <Header /> {/* Header Component */}
+                 <Header /> 
               </View>
             </View>
           </ScrollView>
