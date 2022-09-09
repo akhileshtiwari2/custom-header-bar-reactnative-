@@ -6,17 +6,13 @@ import {
   Image,
   Button,
   Dimensions,
-  // ScrollView,
   ImageBackground,
   TouchableOpacity,
 } from 'react-native';
-
 import LinearGradient from 'react-native-linear-gradient';
 import {FlatList} from 'react-native-gesture-handler';
 import {SafeAreaView} from 'react-native-safe-area-context';
-
 import Header from './src/Header.js';
-
 import {ScrollView} from 'react-native-virtualized-view';
 
 const App = () => {

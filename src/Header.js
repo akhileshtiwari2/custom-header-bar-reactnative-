@@ -29,6 +29,7 @@ const Header = () => {
               <LinearGradient
                 colors={['#F5F5F5', '#0F286A']}
                 style={styles.linearGradientMenu}>
+                  {/* Menu Button */}
                 <MaterialCommunityIcons
                   name="menu"
                   size={30}
@@ -71,7 +72,6 @@ const Header = () => {
           </View>
         </SafeAreaView>
       </ScrollView>
-      {/* </LinearGradient> */}
     </View>
   );
 };
@@ -138,10 +138,6 @@ const styles = StyleSheet.create({
   menuWrapper: {
     alignItems: 'center',
     justifyContent: 'center',
-  },
-
-  discoverWrapper: {
-    marginTop: 20,
   },
 });
 export default Header;
